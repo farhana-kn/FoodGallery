@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 100px;
+    background-color: rgb(252, 196, 196);
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav .logo b{
+    color: orangered;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 30px;
+}
+
+.nav ul li a{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: orangered;
+    display: block;
+    margin-left: 10px;
+}
+
+input{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.signin{
+    background: transparent;
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.signup{
+    background: transparent;
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.content .content-left{
+    display: block;
+    width: 100%;
+}
+
+.content .content-left .info{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content-left .info h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+.content .content-left .info p{
+    font-size: 23px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+}
+
+.content .content-left button{
+    padding: 10px 23px;
+    background-color: orangered;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.content .content-right{
+    display: block;
+    width: 100%;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.row{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.col{
+    
+    width: 270px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.row .col img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h4,h5{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#btn{
+    color: rgb(247, 247, 253);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+footer,p{
+   
+    width: 100%;
+    height: 50px;
+    color: rgb(32, 28, 23);
+}
+
+h3{
+    color: rgb(2, 8, 8);
+    text-align: center;
+}
+
+.bb{
+      margin-top: 50px;
+}
+
+
+
